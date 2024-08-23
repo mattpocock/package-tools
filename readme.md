@@ -1,0 +1,13 @@
+# Which Tools Do Popular NPM Packages Use?
+
+Choosing the tooling for publishing your npm package is tough. There are so many options, and it changes all the time.
+
+To help you make a decision, here's a list of popular npm packages and the tools they use.
+
+## The List
+
+| Package                                          | Language                                      | Package Manager                                      | Task Runner                                | Transpiler/Bundler                                                                 | Formatting                       | Testing                       | Linting                       | Publishing                                             | Miscellaneous                                          |
+| ------------------------------------------------ | --------------------------------------------- | ---------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------- | ----------------------------- | ----------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| [tRPC](https://github.com/trpc/trpc)             | [TypeScript](https://www.typescriptlang.org/) | [pnpm](https://pnpm.io/)                             | [Turborepo](https://turbo.build/repo/docs) | [Rollup](https://rollupjs.org/)                                                    | [Prettier](https://prettier.io/) | [Vitest](https://vitest.dev/) | [ESLint](https://eslint.org/) | [Lerna](https://lerna.js.org/)                         | [`@manypkg/cli`](https://github.com/Thinkmill/manypkg) |
+| [Zod](https://zod.dev)                           | [TypeScript](https://www.typescriptlang.org/) | [Yarn Classic](https://classic.yarnpkg.com/lang/en/) |                                            | [Rollup](https://rollupjs.org/)                                                    | [Prettier](https://prettier.io/) | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/) |                                                        | [Husky](https://typicode.github.io/husky/)             |
+| [Effect.ts](https://github.com/Effect-TS/effect) | [TypeScript](https://www.typescriptlang.org/) | [pnpm](https://pnpm.io/)                             |                                            | [TypeScript CLI](https://www.typescriptlang.org/) and [Babel](https://babeljs.io/) | [Prettier](https://prettier.io/) | [Vitest](https://vitest.dev/) | [ESLint](https://eslint.org/) | [Changesets](https://github.com/changesets/changesets) | [Nix Flakes](https://nixos.wiki/wiki/Flakes)           |
